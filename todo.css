@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover; 
+    float: initial;
+    margin-right: 50px;
+    padding: 10px;
+    background-image: url(https://www.livemint.com/lm-img/img/2024/10/05/600x338/MS_Dhoni_1728148148304_1728148148562.jpg)
+    
+    
+}
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-size: contain;
+    box-shadow: 0 2px 4px rgba(14, 11, 11, 0.1);
+    background-image: url(https://images.pexels.com/photos/56866/garden-rose-red-pink-56866.jpeg?cs=srgb&dl=pexels-pixabay-56866.jpg&fm=jpg);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    padding: 10px2;
+}
+
+.input-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #1f0909;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #23b61d;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #dbd7d7;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f1ecec;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
